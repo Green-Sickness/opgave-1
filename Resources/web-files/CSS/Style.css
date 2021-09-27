@@ -1,0 +1,57 @@
+img {
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+h1, h2{
+    animation-delay: 500ms;
+    padding: 5px;
+    text-align: center;
+}
+
+a>img {
+    width: 300px;
+}
+
+main {
+max-width: 1000px;
+margin-left: auto;
+margin-right: auto;
+}
+
+body{
+    color :darkslategrey
+}
+
+footer{
+    padding: 15px;
+    background-color: darkgreen;
+    text-align: center;
+    color: mintcream;
+}
+
+li a {
+    color: mediumseagreen;
+    text-decoration: none;
+}
+
+nav {
+    text-align: center;
+    background-color: darkgreen;
+    padding: 30px;
+}
+
+:root{
+    margin: 0;
+}
+
+.button { 
+    color: mintcream;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }

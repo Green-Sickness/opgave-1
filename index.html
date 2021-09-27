@@ -1,17 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="Resources/web-files/CSS/Style.css" type="text/CSS">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grønne Drømme - startside </title>
 </head>
 <body>
-<h1 style="text-align: center;">Velkommen til Grønne Drømme</h1>
-<h2 style="text-align: center;">Velkommen til vores website for haveentusiaster.</h2>
-<!-- Her laver vi en <hr> som laver en fin line på vores hjemmeside -->
+    <header>
+        <h1>Velkommen til Grønne Drømme</h1>
+        <h2>Velkommen til vores website for haveentusiaster.</h2>
+    </header>
+
+    <nav>
+        <a href="index.html" class="button">Forside</a>
+
+        <a href="Resources/web-files/Basilikum-Storbladet.html" class="button">Basilikum-Storbladet</a>
+
+        <a href="Resources/web-files/Bonne-BlueLake.html" class="button">Bønne-BlueLake</a>
+
+        <a href="Resources/web-files/ert-alderman.html" class="button">Ært - Alderman</a>
+    </nav>
+<main>
 <hr>
-<img src="Resources/img/Forside-hoejbed1.jpg" style="width:1000px;height:600px; alt="billede af en have">
+<img src="Resources/img/Forside-hoejbed1.jpg" alt="billede af en have">
 
 <section>
     <article>
@@ -23,7 +36,7 @@
 </section>
 <section>
     <article>
-        <h2>Plantedatabasen</h2>
+        <h3>Plantedatabasen</h3>
 
         <p> Vores plantedatabase vokser dag for dag og indeholder al den information, 
         som du har brug for, hvis du vil dyrke dine egne planter.</p> 
@@ -35,19 +48,33 @@
         <p> Har du lyst til at bidrage med at tilføje planter i plantedatabasen, hører vi meget gerne fra dig. 
         Vi kan altid bruge flere grønne fingre på tastaturer, 
         så databasen efterhånden bliver fyldt mere og mere op.</p>
-         <!-- Her sætter vi vores biliede af vores have -->
-        <img src="Resources/img/Forside-hoejbed2.jpg" alt="billede af en have" style="width:1000px;height:600px;">
+        <img src="Resources/img/Forside-hoejbed2.jpg" alt="billede af en have">
     </article>
 </section>
 <section>
     <article>
-        <!-- Her sætter vi vores links og bilieder ind som brugeren kan se -->
         <h4>Nyeste planter i databasen</h4>
-        <p>Bønne, Blue Lake<a href="Resources/web-files/Bonne-BlueLake.html"><br><img src="Resources/img/BeanBlueLake.jpg" alt="Blue lake Bønne" style="width:200px;"></a></p>
-        <p>Ært, Alderman<a href="Resources/web-files/ert-alderman.html"><br><img src="Resources/img/PeaAlderman.jpg" alt="Alderman Ært" style="width:200px;"></a></p>
-        <p>Basilikum, Ocimum Basilicum<br><a href="Resources/web-files/Basilikum-Storbladet.html"><img src="Resources/img/BasilikumOcimumBasilicum.jpg" alt="Ocimum Basilicum" style="width:200px;"></a></p>
+        <ul>
+    
+        <li><a href="Resources/web-files/Basilikum-Storbladet.html">Basilikum, Ocimum Basilicum</a></li>
+
+        <a href="Resources/web-files/Basilikum-Storbladet.html"><img src="Resources/img/BasilikumOcimumBasilicum.jpg" alt="Et basilicum blad"></a>
+      
+        <li><a href="Resources/web-files/Bonne-BlueLake.html">Bønne, Blue Lake</a></li>
+
+        <a href="Resources/web-files/Bonne-BlueLake.html"><img src="Resources/img/BeanBlueLake.jpg" alt="En BeanBlueLake"></a>
+
+        <li><a href="Resources/web-files/ert-alderman.html">Ært, Alderman</a></li>
+
+        <a href="Resources/web-files/ert-alderman.html"><img src="Resources/img/PeaAlderman.jpg" alt="Et "></a>
+        <br>
+
+        </ul>
     </article>
 </section>
-
+</main>
 </body>
+<footer>
+   <p>© Grønne Drømme 2021</p>
+</footer>
 </html>
