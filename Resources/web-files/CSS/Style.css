@@ -1,13 +1,10 @@
-img {
-    border-top-left-radius: 30px;
-    border-bottom-right-radius: 30px;
-}
 
 h1, h2{
     border-radius: 20px;
     padding-top: 10px;
     margin: 10px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 a>img {
@@ -15,13 +12,15 @@ a>img {
 }
 
 main {
-max-width: 1000px;
-margin-left: auto;
-margin-right: auto;
-margin-top: 125px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 125px;
+    color: white;
 }
 
 body{
+    background-color: hsl(143, 55%, 11%);
     color :darkslategrey
 }
 
@@ -30,6 +29,29 @@ footer{
     background-color: darkgreen;
     text-align: center;
     color: mintcream;
+    margin-top: 30rem;
+}
+
+.left {
+    text-align: left;
+}
+
+.test {
+    float: left;
+}
+
+.sidebar {
+    background-color: hsl(143, 54%, 12%);
+    float: left;
+    height: 100vh;
+    padding-top: 3rem;
+    padding-left: 2rem;
+    max-height: 910px;
+}
+
+img {
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 
 li a {
@@ -40,8 +62,8 @@ li a {
 nav {
     text-align: center;
     background-color: darkgreen;
-    padding: 30px;
-    margin-bottom: 6px;
+    padding: 15px;
+    margin-top: -20px;
     position: fixed;
     width: 100%;
 }
@@ -58,7 +80,7 @@ hr {
 header{
     width: 100%;
     text-align: center;
-    margin-top: -110px;
+    margin-top: -130px;
     background-color: white;
     position: fixed;
 }
@@ -73,3 +95,5 @@ header{
     display: inline-block;
     font-size: 16px;
   }
+
+  
