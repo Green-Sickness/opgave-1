@@ -94,6 +94,30 @@ header{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
+}
+
+/* ================================================================= */
+/* =============================CONTAINER=========================== */
+/* ================================================================= */
+
+/* This is our parent / container, this class initiate Flexbox and allows us to use Flexbox width inside our code */
+.container { display: flex; }
+
+/* This class is used to provide alignment to our containers as default they are rows */
+.flex-column { flex-direction: column; }
+
+/* This class is used to provide alignment to our containers to define our direction of our items inside of our flexbox */
+.flex-row { flex-direction: row; }
+
+/* This class is used to provide alignment to our items by using align-items */
+.flex-center { align-items: center; }
+
+/* This class is used to provide wrapping to our flexbox containers */
+.flex-wrap { flex-wrap: wrap; }
+
+div>form>p { 
+    padding: 0.5rem;
+}
+
 
   
